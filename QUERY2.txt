@@ -1,0 +1,1 @@
+SELECT pname,MAX(weight) FROM p;

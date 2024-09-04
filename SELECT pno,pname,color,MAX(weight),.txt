@@ -1,0 +1,1 @@
+SELECT pno,pname,color,MAX(weight),p_city FROM p;

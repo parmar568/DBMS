@@ -1,0 +1,1 @@
+SELECT p.pno,p.pname,p.color FROM p WHERE color="Red";

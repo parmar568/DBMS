@@ -1,0 +1,1 @@
+SELECT DISTINCT s.sname,s.s_city,sp.qty FROM s,sp WHERE s.sno=sp.sno AND sp.qty>200;

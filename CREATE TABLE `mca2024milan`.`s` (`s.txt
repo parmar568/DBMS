@@ -1,0 +1,5 @@
+CREATE TABLE `mca2024milan`.`s` (`sno` CHAR(3) NOT NULL , `sname` VARCHAR(50) NOT NULL , `s_status` INT NOT NULL , `s_city` VARCHAR(25) NOT NULL , PRIMARY KEY (`sno`)) ENGINE = InnoDB;
+
+
+
+CREATE TABLE `mca2024milan`.`p` (`pno` CHAR(3) NOT NULL , `pname` VARCHAR(30) NOT NULL , `color` VARCHAR(10) NOT NULL , `weight` FLOAT(5.2) NOT NULL , `p_city` VARCHAR(25) NOT NULL , PRIMARY KEY (`pno`)) ENGINE = InnoDB;

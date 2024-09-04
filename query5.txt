@@ -1,0 +1,1 @@
+SELECT p.weight FROM p ORDER BY p.weight DESC LIMIT 1 OFFSET 1;
