@@ -1,0 +1,1 @@
+SELECT p.pname,SUM(sp.qty) FROM p,sp WHERE p.pno=sp.pno GROUP BY(sp.pno);
