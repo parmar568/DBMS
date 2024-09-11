@@ -1,0 +1,3 @@
+1:SELECT dept.dept_name,MAX(emp.emp_salary) FROM dept,emp WHERE emp.emp_dept_id=dept.dept_id GROUP BY dept.dept_id;
+
+2:SELECT dept.dept_name,COUNT(emp.emp_id) FROM dept,emp WHERE emp.emp_dept_id=dept.dept_id GROUP BY dept.dept_id;
